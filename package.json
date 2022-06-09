@@ -1,0 +1,17 @@
+{
+  "name": "jest-bug-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jordan Eldredge <jordan@jordaneldredge.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^28.1.1",
+    "prettier": "^2.6.2"
+  },
+  "prettier": {
+    "parser": "flow"
+  },
+  "scripts": {
+    "repro": "jest -u"
+  }
+}
